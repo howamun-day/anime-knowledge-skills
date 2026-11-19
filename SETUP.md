@@ -19,6 +19,12 @@ npx skills add howamun-day/anime-knowledge-skills --skill anime-primary-sources
 npx skills add howamun-day/anime-knowledge-skills --skill '*'
 ```
 
+CLI が現在のエージェントを自動検出する場合があります。別のエージェントに入れる場合は `--agent` で指定します。たとえば、Claude Code に全スキルを入れる場合は次のように実行します。
+
+```sh
+npx skills add howamun-day/anime-knowledge-skills --skill '*' --agent claude-code
+```
+
 自分の複数のプロジェクトで使う場合は、いずれのコマンドにも `--global` を追加できます。以下は全スキルをユーザー単位でインストールする例です。
 
 ```sh
@@ -50,7 +56,7 @@ npx skills add /path/to/anime-knowledge-skills --skill anime-primary-sources
 
 ## インストールを確認
 
-`npx skills` を使った場合は、インストール先のプロジェクトで一覧を表示します。ユーザー単位でインストールした場合は `npx skills list --global` を使います。
+`npx skills` を使った場合は、インストール先のプロジェクトで一覧を表示します。ユーザー単位でインストールした場合は `npx skills list --global` を使います。特定のエージェントの一覧は、たとえば `npx skills list --agent claude-code` で確認できます。
 
 ```sh
 npx skills list

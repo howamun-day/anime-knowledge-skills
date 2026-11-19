@@ -15,7 +15,7 @@ description: Research anime by title, character name, or scene. Consult both Ann
 ## Confirm the work and version
 
 - Match the title, season, and format on the Annict work page. Distinguish seasons, films, specials, and source games. Use Cast (キャスト) for roles and voice actors and Episodes (エピソード) for episode numbers, titles, and individual pages.
-- Open the official site linked from Annict. If the link is missing or broken, search by title, format, release year, and `公式`.
+- Open the official site linked from Annict and check which season or installment the landing page covers. If it opens a different installment, look for the requested season's archive. If the link is missing, broken, or still leads to the wrong installment, search by title, season, release year, and `公式`. Check that the specific credits, announcements, or episode pages you use apply to the requested version.
 - For *CUE!*, use the [verified links and search examples](references/cue.md).
 
 ## Verify character and cast information
@@ -31,5 +31,5 @@ description: Research anime by title, character name, or scene. Consult both Ann
 
 ## Answer in Japanese
 
-- Identify the work and version. Link to the relevant Annict work or episode and cite the specific page or video that supports each requested fact. Attribute official evidence to its publisher. If a detail is available only from Pixiv Encyclopedia or another secondary source, link to the individual article and say that official sources did not verify it. Omit fan interpretations unless requested.
+- Identify the work and version. Link to the matching Annict work or episode if found, and cite the specific page or video that supports each requested fact. Attribute official evidence to its publisher. If a detail is available only from Pixiv Encyclopedia or another secondary source, cite the article only if you could read it and it supports the detail. Say that official sources did not verify it. Omit fan interpretations unless requested.
 - Summarize only the events needed for the answer in your own words. Avoid spoilers beyond the requested scope. Link to source material and omit verbatim synopses, character profiles, dialogue, setting documents, and images from both the skill and its answers.
